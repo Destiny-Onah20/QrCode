@@ -59,7 +59,7 @@ class mailSender {
         return __awaiter(this, void 0, void 0, function* () {
             const mailOption = {
                 from: {
-                    name: "Room",
+                    name: "QrCurve",
                     address: process.env.EMAIL
                 },
                 to: Option.email,

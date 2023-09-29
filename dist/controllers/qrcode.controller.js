@@ -61,7 +61,7 @@ const sendMailCode = (req, res) => __awaiter(void 0, void 0, void 0, function* (
               <p>Hello ${name} </p>
               <p>Your event ticket is attached as a QR code:</p>
               <!-- Display the QR code image -->
-              <img src="data:image/png;base64, ${image} " alt="QR Code" width="200" height="200">
+              <img src="${image}" alt="QR Code" width="200" height="200">
               <p>To access your event ticket, scan the QR code above.</p>
               <p>If you have any questions, please feel free to contact us.</p>
           </body>
