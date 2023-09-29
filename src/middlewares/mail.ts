@@ -58,7 +58,7 @@ export default class mailSender {
   async mail(Option: mailInterface) {
     const mailOption = {
       from: {
-        name: "QrCurve",
+        name: "Room",
         address: <string>process.env.EMAIL
       },
       to: Option.email,

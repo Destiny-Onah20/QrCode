@@ -47,8 +47,7 @@ const sendMailCode = (req, res) => __awaiter(void 0, void 0, void 0, function* (
             email: email,
             subject: "Ticket QR Code!",
             message: "emailText",
-            html: `<
-  
+            html: `
           <!DOCTYPE html>
           <html lang="en">
           <head>

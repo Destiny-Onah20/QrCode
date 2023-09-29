@@ -47,8 +47,7 @@ export const sendMailCode: RequestHandler = async (req, res) => {
       email: email,
       subject: "Ticket QR Code!",
       message: "emailText",
-      html: `<
-  
+      html: `
           <!DOCTYPE html>
           <html lang="en">
           <head>
